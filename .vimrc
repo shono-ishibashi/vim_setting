@@ -286,10 +286,6 @@ nnoremap - <C-x>
 "" move 15 words
 nmap <silent> <Tab> 15<Right>
 nmap <silent> <S-Tab> 15<Left>
-nmap <silent> ll 15<Right>
-nmap <silent> hh 15<Left>
-nmap <silent> jj 15<Down>
-nmap <silent> kk 15<Up>
 
 "" pbcopy for OSX copy/paste
 vmap <C-x> :!pbcopy<CR>
