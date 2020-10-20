@@ -17,6 +17,13 @@ endif
 
 " plugin
 call plug#begin(expand('~/.vim/plugged'))
+
+"" Lsp Setting
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
 Plug 'mattn/vim-starwars'
 "" space + ne -> sidebar
 Plug 'scrooloose/nerdtree'
